@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 
 const Error = () => {
   return (
@@ -12,7 +13,7 @@ const Error = () => {
         flexDirection: "column",
       }}
     >
-      <h1>An error has occurred. Sorry for taht!</h1>
+      <h1>An error has occurred. Sorry for that!</h1>
       <Link
         href="/"
         style={{ textDecoration: "underline", fontSize: 20, marginTop: 8 }}
